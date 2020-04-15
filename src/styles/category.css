@@ -1,0 +1,292 @@
+.big-card {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #F0FBFF;
+    width: 90vw;
+}
+
+.prvi-postovi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F0FBFF;
+    width: 90vw;
+}
+
+.naslov {
+    color: #384955;
+    font-size: x-large;
+    border-bottom: solid 1px #6297BA;
+}
+
+.titleSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: start;
+    width: 90%;
+}
+
+.title {
+    text-align: left;
+    font-size: large;
+    justify-content: start;
+    color: #384955;
+}
+
+.ispodNaslova {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    justify-content: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.share {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: end;
+    grid-gap: 10px;
+}
+
+.facebook {
+    text-align: end;
+    color: #6297BA;
+}
+
+.facebook a {
+    color: #6297BA;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #F0FBFF;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: solid 1px #00ADEE;
+}
+
+.big-image {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.kategorija {
+    margin-left: 20px;
+    color: #AB2572;
+}
+
+.big-kategorija {
+    color: #AB2572;
+    margin-left: 0;
+}
+
+.excerpt {
+    margin-left: 20px;
+    width: 100%;
+    color: #384955
+}
+
+.excerpt-post {
+    width: 100%;
+    color: #384955
+}
+
+.right {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #F0FBFF;
+    width: 100%;
+    margin-top: 30px;
+    border-top: solid 1px #6297BA;
+    border-bottom: solid 1px #6297BA;
+}
+
+.small-card {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+.saNaslovom {
+    display: grid;
+    align-content: space-between;
+}
+
+.small-picture {
+    height: 150px;
+}
+
+.poredNaslova {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    justify-content: start;
+    align-content: space-around;
+    margin-left: 20px;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.additionalPosts {
+    width: 90vw;
+    background-color: #F0FBFF;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.naslovDesno {
+    color: #384955;
+    margin-left: 20px;
+}
+
+.big-card a {
+    text-decoration: none;
+}
+
+.big-card a:link {
+    color: #384955;
+}
+
+.big-card a:visited {
+    color: #384955;
+}
+
+.big-card a:hover {
+    color: #6297BA;
+}
+
+.big-card a:active {
+    color: #6297BA;
+}
+
+.additional-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.additional-image {
+    width: 90%;
+    align-self: center;
+}
+
+.podaci {
+    display: grid;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.additional-title {
+    text-align: left;
+    font-size: large;
+    justify-content: start;
+    color: #384955;
+    margin-top: 10px;
+}
+
+.additional-data {
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    margin-top: 10px;
+}
+
+.additional-share {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #384955;
+}
+
+.additional-card a {
+    text-decoration: none;
+}
+
+.additional-card a:link {
+    color: #384955;
+}
+
+.additional-card a:visited {
+    color: #384955;
+}
+
+.additional-card a:hover {
+    color: #6297BA;
+}
+
+.additional-card a:active {
+    color: #6297BA;
+}
+
+.additional-kategorija {
+    color: #384955;
+    margin-top: 10px;
+}
+
+span {
+    background-color: #6297BA;
+    color: #F0FBFF;
+}
+
+.more {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.more-button {
+    border: none;
+    background-color: #F0FBFF;
+    color: #00ADEE;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+    border: solid 1px #00ADEE;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+Icon {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 1024px) {
+    .prvi-postovi {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .right {
+        border-bottom: none;
+        border-top: none;
+        margin-top: 50px;
+    }
+
+    .left {
+        border-bottom: solid 1px #00ADEE;
+        margin-bottom: 20px;
+    }
+
+    .big-card {
+        margin-top: 50px;
+    }
+
+    .additionalPosts {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        margin-left: 0;
+    }
+
+}

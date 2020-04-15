@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+html,
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 90vw;
+    min-height: 85vh;
+    max-width: 1600px;
+}
+
+.main-page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: #F0FBFF;
+    color: #6297BA;
+    margin: 0 auto;
+}

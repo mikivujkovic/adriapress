@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+html,
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 90vw;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #384955;
+  padding: 1rem 5vw;
+  color: #f0fbff;
+}
+
+header a {
+  color: #f0fbff;
+  display: inline-block;
+  margin-left: 0.75em;
+}
+
+header .home {
+  font-weight: 800;
+  margin-left: 0;
+  text-decoration: none;
+}
+
+main {
+  margin: 2rem auto;
+  max-width: 54ch;
+  width: 90vw;
+}
+
+.logo {
+  height: 50px;
+}
+
+.logo-wrapper {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.menu-wrapper {
+  display: grid;
+  align-items: center;
+  justify-items: left;
+  font-size: large;
+  color: #f0fbff;
+}
+
+.social-wrapper {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding-left: 20px;
+  align-items: center;
+  justify-items: right;
+  font-size: large;
+}
+
+.social-wrapper a {
+  color: #f0fbff;
+}
+
+.dummy {
+  color: #f0fbff;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: #384955;
+  width: 90vw;
+  padding: 50px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+}
+
+:target {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
